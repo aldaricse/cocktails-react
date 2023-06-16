@@ -1,0 +1,49 @@
+// COLORS
+	$my-colors: (
+		color1: #1d000d,
+		color2: #F86627,
+		color3: #230312,
+	 	white-light: #F0F0F0,
+		default: #bdc3c7,
+		primary: #3498db,
+		success: #2ecc71,
+		// success: #4caf50,
+		info:		 #1abc9c,
+		warning: #f1c40f,
+		danger:  #e74c3c,
+		dark-color: #282d31,
+		color-white: #fff,
+		color-black: #000
+	);
+
+// IMPRIMIR COLORES
+@each $color, $value in $my-colors{
+	.#{$color}{
+		color: $value;
+	}
+	.#{$color}-force{
+		color: $value !important;
+	}
+	.bg-#{$color}{
+		background-color: $value;
+	}
+	.bg-#{$color}-force{
+		background-color: $value !important;
+	}
+}
+
+// Z-INDEX
+$z-normal: 1;
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;
+
+
+$gutter-header: 5.625rem;
+$gutter-breadcrumb: 2rem;
+// $gutter-top-main: 11rem;
+// $gutter-menu: 1.35rem 0 1rem;
+// $gutter-footer: 7.25rem;
+
+
+$color_active_pagination: map-get($my-colors, primary);

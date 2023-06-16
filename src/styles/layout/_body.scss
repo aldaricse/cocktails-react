@@ -1,0 +1,43 @@
+body{
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  @include scrollMinimal(darken(map-get($my-colors, color2), 15%), 12px);
+}
+
+.main{
+	position: relative;
+  // max-width: 1920px;
+  // max-width: 1440px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+  // min-height: 720px;
+  // min-height: calc(100% - #{$gutter-header} - #{$gutter-footer});
+  // margin-top: calc(#{$gutter-header} - 1px);
+  min-height: calc(100vh - #{$gutter-header}); // -2rem -> breadcrumb
+  // min-height: 2500px;
+  background-color: #000;
+  overflow: hidden;
+}
+
+a, a:hover{
+  // color: map-get($my-colors, dark-color);
+  color: #fff;
+}
+
+  
+form {
+  width: 100%;
+  max-width: 600px;
+}
+
+label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+}

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'RNS Sanz Normal';
+    src: url('../fonts/RNSSanz-Normal.woff2') format('woff2'),
+        url('../fonts/RNSSanz-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RBNo3.1 Light';
+    src: url('../fonts/RBNo31-Light.woff2') format('woff2'),
+        url('../fonts/RBNo31-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RBNo3.1 Book';
+    src: url('../fonts/RBNo31-Book.woff2') format('woff2'),
+        url('../fonts/RBNo31-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('../fonts/RBNo31-Bold.woff2') format('woff2'),
+        url('../fonts/RBNo31-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RBNo3.1 Black';
+    src: url('../fonts/RBNo31-Black.woff2') format('woff2'),
+        url('../fonts/RBNo31-Black.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+/*FONTS*/
+// $RNS_Sanz_Normal: 'RNS Sanz Normal', sans-serif;
+// $RBNo3: 'RBNo3.1', sans-serif;
+// $RBNo3_Book: 'RBNo3.1 Book', sans-serif;
+// $RBNo3_Black: 'RBNo3.1 Black', sans-serif;
+// $RBNo3_Light: 'RBNo3.1 Light', sans-serif;
+
+
+// .RNS-Sanz-Normal{
+//   font-family: $RNS_Sanz_Normal, sans-serif;
+// }
+
+// .RBNo31-Bold{
+//   font-family: $RBNo3, sans-serif;
+// }
+
+// .RBNo31-Book{
+//   font-family: $RBNo3_Book;
+// }
+
+
+// .RBNo31-Light{
+//   font-family: $RBNo3_Light;
+// }
+
+// .RBNo31-Black{
+//   font-family: $RBNo3_Black;
+// }

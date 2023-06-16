@@ -1,0 +1,7 @@
+.navbar{
+  position: relative;
+  height: $gutter-header;
+  @extend .bg-color1;
+  color: #fff;
+  border-bottom: 1px solid map-get($my-colors, color1);
+}

@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'RNS Sanz Normal';
+    src: url('RNSSanz-Normal.woff2') format('woff2'),
+        url('RNSSanz-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-Light.woff2') format('woff2'),
+        url('RBNo31-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RBNo3.1 Book';
+    src: url('RBNo31-Book.woff2') format('woff2'),
+        url('RBNo31-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-Bold.woff2') format('woff2'),
+        url('RBNo31-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RBNo3.1';
+    src: url('RBNo31-Black.woff2') format('woff2'),
+        url('RBNo31-Black.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
